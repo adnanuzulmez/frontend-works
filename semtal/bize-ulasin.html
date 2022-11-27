@@ -1,0 +1,548 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css"
+      integrity="sha512-usVBAd66/NpVNfBge19gws2j6JZinnca12rAe2l+d+QkLU9fiG02O1X8Q6hepIpr/EYKZvKx/I9WsnujJuOmBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Spartan&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Spartan:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Spartan:wght@300;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Spartan:wght@300;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="main-container">
+      <div class="mobile-navbar">
+        <div class="m-navbar-logo">
+          <img src="start/white-logo1.png" alt="" style="height: 40px" />
+          <a
+            href="javascript:void(0);"
+            onclick="myFunc();"
+            style="
+              font-size: x-large;
+              float: right;
+              margin-top: 8px;
+              color: black;
+            "
+            ><i class="fa fa-bars"></i
+          ></a>
+          <div class="mobile-container" id="nav-mobile" style="display: none">
+            <li><a href="index.html" class="resp">Anasayfa</a></li>
+            <li><a href="kurumsal.html" class="resp">Kurumsal</a></li>
+            <li><a href="urunlerimiz.html" class="resp">Ürünlerimiz</a></li>
+            <li><a href="medya.html" class="resp">Medya</a></li>
+            <li><a href="haberler.html" class="resp">Haberler</a></li>
+            <li><a href="bize-ulasin.html" class="resp">Bize Ulaşın</a></li>
+
+            <ul class="socials">
+              <li>
+                <a href=""><i class="fa fa-facebook"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fa fa-youtube-play"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fa fa-instagram"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fa fa-linkedin"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fa fa-twitter"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="p-4" id="navbar">
+        <div class="header-top">
+          <li><a href="index.html">ANASAYFA</a></li>
+          <li><a href="kurumsal.html">KURUMSAL</a></li>
+          <li><a href="urunlerimiz.html">ÜRÜNLERİMİZ</a></li>
+          <li>
+            <a href=""
+              ><img src="start/white-logo1.png" alt="" style="width: 200px"
+            /></a>
+          </li>
+          <li><a href="medya.html">MEDYA</a></li>
+          <li><a href="haberler.html">HABERLER</a></li>
+          <li><a href="bize-ulasin.html">BİZE ULAŞIN</a></li>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row p-4">
+          <div class="phone-img header-top" id="navbar-2">
+            <div class="numbers">
+              <img src="start/phone-'con.png" alt="" />
+              <a href="" class="phone-number">0(332) 342 26 57</a>
+            </div>
+            <div class="numbers">
+              <a href="" class="phone-number">0(542) 342 26 57</a>
+              <img src="start/whatsapp-icon.jpg" alt="" />
+            </div>
+          </div>
+          <div class="header-top">
+            <li><a href="index.html">ANASAYFA</a></li>
+            <li><a href="kurumsal.html">KURUMSAL</a></li>
+            <li><a href="urunlerimiz.html">ÜRÜNLERİMİZ</a></li>
+            <li>
+              <a href=""
+                ><img src="start/logo.png" alt="" style="width: 300px"
+              /></a>
+            </li>
+            <li><a href="medya.html">MEDYA</a></li>
+            <li><a href="haberler.html">HABERLER</a></li>
+            <li><a href="bize-ulasin.html">BİZE ULAŞIN</a></li>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="slider" style="position: relative; top: -250px" id="back2">
+      <img
+        style="object-fit: cover; height: 450px; width: 100%"
+        src="https://semtal.com.tr/assets/images/contact-header.jpg"
+        alt=""
+        class="img-fluid"
+      />
+      <div class="container">
+        <div class="row col-lg-12 justify-content-center">
+          <div class="slider-center-content2">BİZE ULAŞIN</div>
+        </div>
+        <div
+          class="row col-lg-12 justify-content-center"
+          style="
+            font-weight: 600;
+            color: white;
+            position: relative;
+            bottom: 200px;
+            margin-left: 7px;
+          "
+        >
+          ANASAYFA/BİZE ULAŞIN
+        </div>
+      </div>
+    </div>
+    <div class="bot-340 container">
+      <div class="row">
+        <div class="col-lg-3 menu menu-2 flex-column nav nav-tabs">
+          <h6 style="background-color: #ffb200">Menu</h6>
+          <a data-toggle="tab" href="#link1">İletişim Bilgileri</a>
+          <a data-toggle="tab" href="#link2">İletişim Formu</a>
+        </div>
+        <div class="col-lg-9 menu tab-content">
+          <h6 style="color: 00537e; background-color: #efefef">İletişim</h6>
+          <div class="page-content tab-pane fade show active" id="link1">
+            <div class="row" style="width: 100%">
+              <div class="col-lg-4">
+                <a href="">
+                  <div
+                    class="box"
+                    style="
+                      background-image: url(https://semtal.com.tr/assets/images/call.png);
+                      height: 250px;
+                      width: 250px;
+                    "
+                  >
+                    <div class="contact-text" style="margin-top: 100px">
+                      <a
+                        href=""
+                        style="
+                          font-size: medium;
+                          color: rgba(0, 0, 0, 0.575);
+                          letter-spacing: 0px;
+                        "
+                        >+90(332) 342 26 57</a
+                      >
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-lg-4">
+                <a href="">
+                  <div
+                    class="box"
+                    style="
+                      background-image: url(https://semtal.com.tr/assets/images/mail.png);
+                      height: 250px;
+                      width: 250px;
+                    "
+                  >
+                    <div class="contact-text" style="margin-top: 100px">
+                      <a
+                        href=""
+                        style="
+                          font-size: large;
+                          color: rgba(0, 0, 0, 0.575);
+                          letter-spacing: 0px;
+                        "
+                        >bilgi@semtal.com.tr</a
+                      >
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-lg-4">
+                <a href="">
+                  <div
+                    class="box"
+                    style="
+                      background-image: url(https://semtal.com.tr/assets/images/address.png);
+                      height: 250px;
+                      width: 250px;
+                    "
+                  >
+                    <div class="contact-text" style="margin-top: 70px">
+                      <a
+                        href=""
+                        style="
+                          font-size: medium;
+                          color: rgba(0, 0, 0, 0.575);
+                          letter-spacing: 0px;
+                        "
+                        >Hacıyusufmescit Mah.</a
+                      >
+                      <a
+                        href=""
+                        style="
+                          font-size: medium;
+                          color: rgba(0, 0, 0, 0.575);
+                          letter-spacing: 0px;
+                          margin-left: 20px;
+                        "
+                        >Ehlibeyt Sokak No: 33</a
+                      >
+                      <a
+                        href=""
+                        style="
+                          font-size: medium;
+                          color: rgba(0, 0, 0, 0.575);
+                          letter-spacing: 0px;
+                          margin-left: 35px;
+                        "
+                        >Karatay / KONYA</a
+                      >
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-lg-7" style="background-color: #79D06C; height: 70px; margin: 20px 0px 0px 15px;">
+                <div class="row">
+                  <div class="col-lg-2">
+                    <img src="start/wp.png" alt="" style="margin-left: -10px; margin-top: 10px;">
+                  </div>
+                  <div class="col-lg-10" style="margin-top: 10px;">
+                   <span>Whatsapp Destek Hattımız</span>
+                   <br>
+                   <span>332 332 32 32</span>
+                  </div>
+                </div>                  
+              </div>
+            </div>
+            
+          </div>
+          <div class="page-content tab-pane fade" id="link2">
+            <form action="">
+              <div class="row forms" style="margin-top: 30px">
+                <div class="col-lg-6">
+                  <input type="text" placeholder="İsim" />
+                </div>
+                <div class="col-lg-6">
+                  <input type="text" placeholder="Soyisim" />
+                </div>
+                <div class="col-lg-6">
+                  <input type="text" placeholder="Telefon" />
+                </div>
+                <div class="col-lg-6">
+                  <input type="text" placeholder="E-posta" />
+                </div>
+                <div class="col-lg-12">
+                  <input type="text" placeholder="Konu" />
+                </div>
+                <div class="col-lg-12">
+                  <textarea
+                    name=""
+                    id=""
+                    cols="1"
+                    rows="5"
+                    style="width: 100%; margin-top: 20px"
+                    placeholder="Mesaj"
+                  ></textarea>
+                </div>
+                <div class="col-lg-3 btn1">
+                  <input type="submit" value="Gönder" />
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="first-footer">
+      <div class="container">
+        <div class="pseudo-container">
+          <div class="title2">
+            <span><h1>BİZİ SOSYAL MEDYADA TAKİP EDİN</h1></span>
+          </div>
+          <div class="text">
+            <span
+              >Birbirinden şık ürünlere ulaşmak, fırsat ve kampanyalardan
+              haberdar olmak için bizi takip edin...</span
+            >
+          </div>
+          <div class="social-media">
+            <li>
+              <a href=""><i class="fa fa-facebook-square"></i></a>
+            </li>
+            <li>
+              <a href="" style="padding-left: 19px"
+                ><i class="fa fa-instagram"></i
+              ></a>
+            </li>
+            <li>
+              <a href=""><i class="fa fa-youtube-play"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fa fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fa fa-linkedin"></i></a>
+            </li>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-photo">
+        <div class="container">
+          <div class="footer-flex">
+            <div class="col-sm-3 col-6">
+              <div class="row">
+                <div class="col-sm-6">
+                  <img src="start/footer-icon4.png" alt="" />
+                </div>
+                <div class="col-sm-6">
+                  <span class="sub">MODERN TASARIMLAR</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3 col-6">
+              <div class="row">
+                <div class="col-sm-6">
+                  <img src="start/footer-icon3.png" alt="" />
+                </div>
+                <div class="col-sm-6">
+                  <span class="sub">GELİŞMİŞ MAKİNA AĞI</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3 col-6">
+              <div class="row">
+                <div class="col-sm-6">
+                  <img src="start/footer-icon2.png" alt="" />
+                </div>
+                <div class="col-sm-6">
+                  <span class="sub">MÜŞTERİ MEMNUNİYETİ</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3 col-6">
+              <div class="row">
+                <div class="col-sm-6">
+                  <img src="start/footer-icon1.png" alt="" />
+                </div>
+                <div class="col-sm-6">
+                  <span class="sub">KALİTELİ ÜRETİM</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="contact-flex">
+            <div class="contact">
+              <div class="col-4">
+                <div class="row align-items-center">
+                  <div class="col-6">
+                    <a href="">+90 (332) 342 26 57</a>
+                  </div>
+                  <div class="col-2">
+                    <div class="bg-circle">
+                      <a href=""><img src="start/dark-phone.png" alt="" /></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4 center-text">
+                <div class="column">
+                  <div class="col-12">
+                    <p class="footer">Whatsapp Destek Hattımız</p>
+                  </div>
+                  <div class="col-12 hover-a">
+                    <a href="">+90 (542) 342 26 57</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="row align-items-center align-right">
+                  <div class="col-6">
+                    <a href="">bilgi@semtal.com.tr</a>
+                  </div>
+                  <div class="col-2">
+                    <div class="bg-circle">
+                      <a href=""><img src="start/dark-mail.png" alt="" /></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="go-back">
+            <a href="#back2"><i class="fa fa-angle-double-up"></i></a>
+            <br />
+            <a style="font-size: small" href="#back2">Yukarı Çık</a>
+          </div>
+          <div class="footer-nav">
+            <li><a href="index.html">ANASAYFA</a></li>
+            <li><a href="kurumsal.html">KURUMSAL</a></li>
+            <li><a href="urunlerimiz.html">ÜRÜNLERİMİZ</a></li>
+            <li><a href="medya.html">MEDYA</a></li>
+            <li><a href="bize-ulasin.html">BİZE ULAŞIN</a></li>
+          </div>
+          <div class="container">
+            <div class="mobile-footer mr-top-70">
+              <a href="">+90 (332) 342 26 57</a>
+              <p class="footer">Whatsapp Destek Hattımız</p>
+              <a href="">+90 (542) 342 26 57</a>
+              <a href="">bilgi@semtal.com.tr</a>
+              <div class="mobile-footer mr-top-70">
+                <li><a href="index.html">ANASAYFA</a></li>
+                <li><a href="kurumsal.html">KURUMSAL</a></li>
+                <li><a href="urunlerimiz.html">ÜRÜNLERİMİZ</a></li>
+                <li><a href="medya.html">MEDYA</a></li>
+                <li><a href="bize-ulasin.html">BİZE ULAŞIN</a></li>
+              </div>
+            </div>
+          </div>
+          <div class="footer-radius"></div>
+          <div class="row align-items-center">
+            <div class="footer-radius-inner2 col-4">
+              <span style="color: white; font-size: small"
+                >Tüm hakları saklıdır 2021</span
+              >
+            </div>
+            <div class="footer-radius-inner2 col-4">
+              <a href=""><img src="start/white-logo1.png" alt="" /></a>
+            </div>
+            <div class="footer-radius-inner2 col-4">
+              <a href=""><img src="start/post-ajans-icon.png" alt="" /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container"></div>
+    </footer>
+
+    <div class="container footer-mobile">
+      <div class="row footer-end">
+        <div class="footer-radius-inner col-4">
+          <span class="desktop" style="color: rgb(0, 0, 0); font-size: small"
+            >Tüm hakları saklıdır 2021</span
+          >
+        </div>
+        <div class="footer-radius-inner col-4">
+          <a href=""><img src="start/white-logo1.png" alt="" /></a>
+        </div>
+        <div class="footer-radius-inner col-4">
+          <a href=""
+            ><img src="https://semtal.com.tr/assets/images/post.png" alt=""
+          /></a>
+        </div>
+        <div class="footer-radius-inner col-4">
+          <span class="mobile" style="color: rgb(0, 0, 0); font-size: small"
+            >Tüm hakları saklıdır 2021</span
+          >
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/js/bootstrap.min.js"
+      integrity="sha512-a6ctI6w1kg3J4dSjknHj3aWLEbjitAXAjLDRUxo2wyYmDFRcz2RJuQr5M3Kt8O/TtUSp8n2rAyaXYy1sjoKmrQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script type="text/javascript" src="script.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

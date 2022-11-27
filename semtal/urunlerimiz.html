@@ -1,0 +1,775 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css"
+      integrity="sha512-usVBAd66/NpVNfBge19gws2j6JZinnca12rAe2l+d+QkLU9fiG02O1X8Q6hepIpr/EYKZvKx/I9WsnujJuOmBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Spartan&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Spartan:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Spartan:wght@300;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Spartan:wght@300;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="files/fancy.css"
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+    />
+    <script type="text/javascript" src="files/jquery-1.2.3.pack.js"></script>
+    <script
+      type="text/javascript"
+      src="files/jquery.fancybox-1.0.0.js"
+    ></script>
+    <script type="text/javascript" src="files/jquery.pngFix.pack.js"></script>
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="main-container">
+      <div class="mobile-navbar">
+        <div class="m-navbar-logo">
+          <img src="start/white-logo1.png" alt="" style="height: 40px" />
+          <a
+            href="javascript:void(0);"
+            onclick="myFunc();"
+            style="
+              font-size: x-large;
+              float: right;
+              margin-top: 8px;
+              color: black;
+            "
+            ><i class="fa fa-bars"></i
+          ></a>
+          <div class="mobile-container" id="nav-mobile" style="display: none">
+            <li><a href="index.html" class="resp">Anasayfa</a></li>
+            <li><a href="kurumsal.html" class="resp">Kurumsal</a></li>
+            <li><a href="urunlerimiz.html" class="resp">Ürünlerimiz</a></li>
+            <li><a href="medya.html" class="resp">Medya</a></li>
+            <li><a href="haberler.html" class="resp">Haberler</a></li>
+            <li><a href="bize-ulasin.html" class="resp">Bize Ulaşın</a></li>
+
+            <ul class="socials">
+              <li>
+                <a href=""><i class="fa fa-facebook"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fa fa-youtube-play"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fa fa-instagram"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fa fa-linkedin"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fa fa-twitter"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="p-4" id="navbar">
+        <div class="header-top">
+          <li><a href="index.html">ANASAYFA</a></li>
+          <li><a href="kurumsal.html">KURUMSAL</a></li>
+          <li><a href="urunlerimiz.html">ÜRÜNLERİMİZ</a></li>
+          <li>
+            <a href=""
+              ><img src="start/white-logo1.png" alt="" style="width: 200px"
+            /></a>
+          </li>
+          <li><a href="medya.html">MEDYA</a></li>
+          <li><a href="haberler.html">HABERLER</a></li>
+          <li><a href="bize-ulasin.html">BİZE ULAŞIN</a></li>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row p-4">
+          <div class="phone-img header-top" id="navbar-2">
+            <div class="numbers">
+              <img src="start/phone-'con.png" alt="" />
+              <a href="" class="phone-number">0(332) 342 26 57</a>
+            </div>
+            <div class="numbers">
+              <a href="" class="phone-number">0(542) 342 26 57</a>
+              <img src="start/whatsapp-icon.jpg" alt="" />
+            </div>
+          </div>
+          <div class="header-top">
+            <li><a href="index.html">ANASAYFA</a></li>
+            <li><a href="kurumsal.html">KURUMSAL</a></li>
+            <li><a href="urunlerimiz.html">ÜRÜNLERİMİZ</a></li>
+            <li>
+              <a href=""
+                ><img src="start/logo.png" alt="" style="width: 300px"
+              /></a>
+            </li>
+            <li><a href="medya.html">MEDYA</a></li>
+            <li><a href="haberler.html">HABERLER</a></li>
+            <li><a href="bize-ulasin.html">BİZE ULAŞIN</a></li>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="slider" style="position: relative; top: -250px" id="back5">
+      <img
+        style="object-fit: cover; height: 450px; width: 100%"
+        src="https://semtal.com.tr/assets/images/product-header.jpg"
+        alt=""
+        class="img-fluid"
+      />
+      <div class="container">
+        <div class="row col-lg-12 justify-content-center">
+          <div class="slider-center-content2">ÜRÜNLERİMİZ</div>
+        </div>
+        <div
+          class="row col-lg-12 justify-content-center"
+          style="
+            font-weight: 600;
+            color: white;
+            position: relative;
+            bottom: 200px;
+            margin-left: 7px;
+          "
+        >
+          ANASAYFA/ÜRÜNLERİMİZ
+        </div>
+      </div>
+    </div>
+    <div class="bot-340 container">
+      <div class="row">
+        <div class="col-lg-3 menu menu-2 flex-column nav nav-tabs">
+          <h6 style="background-color: #ffb200">Menu</h6>
+          <a data-toggle="tab" href="#prod-1">Kitaplıklar</a>
+          <a data-toggle="tab" href="#prod-2">Çalışma Masası</a>
+          <a data-toggle="tab" href="#prod-3">Çiçeklikler</a>
+          <a data-toggle="tab" href="#prod-4">Orta Sehpa</a>
+          <a data-toggle="tab" href="#prod-5">Dresuarlar</a>
+          <a data-toggle="tab" href="#prod-6">TV Sehpaları</a>
+          <a data-toggle="tab" href="#prod-7">Bar Koltukları</a>
+          <a data-toggle="tab" href="#prod-8">Ayakkabılık</a>
+          <a data-toggle="tab" href="#prod-9">Bahçe Mobilyaları</a>
+          <a data-toggle="tab" href="#prod-10">Masa Ayakları</a>
+          <a data-toggle="tab" href="#prod-11">Dekoratif Raflar</a>
+          <a data-toggle="tab" href="#prod-12">Masasalar</a>
+        </div>
+
+        <div class="col-lg-9 menu tab-content">
+          <h6 style="color: 00537e; background-color: #efefef">Ürünlerimiz</h6>
+          <div class="row tab-pane fade show active" id="prod-1">
+            <div class="col-lg-4">
+              <a href="">
+                <div
+                  class="box"
+                  style="
+                    background-image: url(https://semtal.com.tr/panel/uploads/product_v/270x244/14.jpeg);
+                    background-size: cover;
+                  "
+                ></div>
+                <div class="product-title">
+                  <span>Lorem ipsum dolor sit amet consectetur.</span>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-4">
+              <a href="">
+                <div
+                  class="box"
+                  style="
+                    background-image: url(https://semtal.com.tr/panel/uploads/product_v/270x244/13.jpeg);
+                    background-size: cover;
+                  "
+                ></div>
+                <div class="product-title">
+                  <span>Lorem ipsum dolor sit amet consectetur.</span>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-4">
+              <a href="">
+                <div
+                  class="box"
+                  style="
+                    background-image: url(https://semtal.com.tr/panel/uploads/product_v/270x244/smt1053s.png);
+                    background-size: cover;
+                  "
+                ></div>
+                <div class="product-title">
+                  <span>Lorem ipsum dolor sit amet consectetur.</span>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-4">
+              <a href="">
+                <div
+                  class="box"
+                  style="
+                    background-image: url(https://semtal.com.tr/panel/uploads/product_v/270x244/smt1054s.png);
+                    background-size: cover;
+                  "
+                ></div>
+                <div class="product-title">
+                  <span>Lorem ipsum dolor sit amet consectetur.</span>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-4">
+              <a href="">
+                <div
+                  class="box"
+                  style="
+                    background-image: url(https://semtal.com.tr/panel/uploads/product_v/270x244/16.jpeg);
+                    background-size: cover;
+                  "
+                ></div>
+                <div class="product-title">
+                  <span>Lorem ipsum dolor sit amet consectetur.</span>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-4">
+              <a href="">
+                <div
+                  class="box"
+                  style="
+                    background-image: url(https://semtal.com.tr/panel/uploads/product_v/270x244/14.jpeg);
+                    background-size: cover;
+                  "
+                ></div>
+                <div class="product-title">
+                  <span>Lorem ipsum dolor sit amet consectetur.</span>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-4">
+              <a href="">
+                <div
+                  class="box"
+                  style="
+                    background-image: url(https://semtal.com.tr/panel/uploads/product_v/270x244/smt1053s.png);
+                    background-size: cover;
+                  "
+                ></div>
+                <div class="product-title">
+                  <span>Lorem ipsum dolor sit amet consectetur.</span>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-4">
+              <a href="">
+                <div
+                  class="box"
+                  style="
+                    background-image: url(https://semtal.com.tr/panel/uploads/product_v/270x244/smt1054s.png);
+                    background-size: cover;
+                  "
+                ></div>
+                <div class="product-title">
+                  <span>Lorem ipsum dolor sit amet consectetur.</span>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="row tab-pane fade" id="prod-2">
+            <div class="col-lg-4">
+              <a href="">
+                <div
+                  class="box"
+                  style="
+                    background-image: url(https://semtal.com.tr/panel/uploads/product_v/270x244/masa3.jpg);
+                    background-size: cover;
+                  "
+                ></div>
+                <div class="product-title">
+                  <span>Lorem ipsum dolor sit amet consectetur.</span>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-4">
+              <a href="">
+                <div
+                  class="box"
+                  style="
+                    background-image: url(https://semtal.com.tr/panel/uploads/product_v/270x244/masa5.jpg);
+                    background-size: cover;
+                  "
+                ></div>
+                <div class="product-title">
+                  <span>Lorem ipsum dolor sit amet consectetur.</span>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-4">
+              <a href="">
+                <div
+                  class="box"
+                  style="
+                    background-image: url(https://semtal.com.tr/panel/uploads/product_v/270x244/calisma-masasi.png);
+                    background-size: cover;
+                  "
+                ></div>
+                <div class="product-title">
+                  <span>Lorem ipsum dolor sit amet consectetur.</span>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-4">
+              <a href="">
+                <div
+                  class="box"
+                  style="
+                    background-image: url(https://semtal.com.tr/panel/uploads/product_v/270x244/calisma-masasi1.png);
+                    background-size: cover;
+                  "
+                ></div>
+                <div class="product-title">
+                  <span>Lorem ipsum dolor sit amet consectetur.</span>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-4">
+              <a href="">
+                <div
+                  class="box"
+                  style="
+                    background-image: url(https://semtal.com.tr/panel/uploads/product_v/270x244/16.jpeg);
+                    background-size: cover;
+                  "
+                ></div>
+                <div class="product-title">
+                  <span>Lorem ipsum dolor sit amet consectetur.</span>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-4">
+              <a href="">
+                <div
+                  class="box"
+                  style="
+                    background-image: url(https://semtal.com.tr/panel/uploads/product_v/270x244/14.jpeg);
+                    background-size: cover;
+                  "
+                ></div>
+                <div class="product-title">
+                  <span>Lorem ipsum dolor sit amet consectetur.</span>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-lg-4">
+              <a href="">
+                <div
+                  class="box"
+                  style="
+                    background-image: url(https://semtal.com.tr/panel/uploads/product_v/270x244/smt1054s.png);
+                    background-size: cover;
+                  "
+                ></div>
+                <div class="product-title">
+                  <span>Lorem ipsum dolor sit amet consectetur.</span>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="row tab-pane fade" id="prod-3">
+            <div class="col-lg-4">
+              <a href="">
+                <div
+                  class="box"
+                  style="
+                    background-image: url(https://semtal.com.tr/panel/uploads/product_v/270x244/11.jpeg);
+                    background-size: cover;
+                  "
+                ></div>
+                <div class="product-title">
+                  <span>Lorem ipsum dolor sit amet consectetur.</span>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-4">
+              <a href="">
+                <div
+                  class="box"
+                  style="
+                    background-image: url(https://semtal.com.tr/panel/uploads/product_v/270x244/metal-ciceklik.jpg);
+                    background-size: cover;
+                  "
+                ></div>
+                <div class="product-title">
+                  <span>Lorem ipsum dolor sit amet consectetur.</span>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-4">
+              <a href="">
+                <div
+                  class="box"
+                  style="
+                    background-image: url(https://semtal.com.tr/panel/uploads/product_v/270x244/8.jpg);
+                    background-size: cover;
+                  "
+                ></div>
+                <div class="product-title">
+                  <span>Lorem ipsum dolor sit amet consectetur.</span>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-4">
+              <a href="">
+                <div
+                  class="box"
+                  style="
+                    background-image: url(https://semtal.com.tr/panel/uploads/product_v/270x244/ciceklik2.jpeg);
+                    background-size: cover;
+                  "
+                ></div>
+                <div class="product-title">
+                  <span>Lorem ipsum dolor sit amet consectetur.</span>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="row tab-pane fade" id="prod-4">
+            <div
+              class="span-mr col-lg-12"
+              style="background-color: rgb(250, 232, 151)"
+            >
+              <span>Bu Kategoride Henüz Ürün Bulunmamaktadır.</span>
+            </div>
+          </div>
+          <div class="row tab-pane fade" id="prod-5">
+            <div
+              class="span-mr col-lg-12"
+              style="background-color: rgb(250, 232, 151)"
+            >
+              <span>Bu Kategoride Henüz Ürün Bulunmamaktadır.</span>
+            </div>
+          </div>
+          <div class="row tab-pane fade" id="prod-6">
+            <div
+              class="span-mr col-lg-12"
+              style="background-color: rgb(250, 232, 151)"
+            >
+              <span>Bu Kategoride Henüz Ürün Bulunmamaktadır.</span>
+            </div>
+          </div>
+          <div class="row tab-pane fade" id="prod-7">
+            <div
+              class="span-mr col-lg-12"
+              style="background-color: rgb(250, 232, 151)"
+            >
+              <span>Bu Kategoride Henüz Ürün Bulunmamaktadır.</span>
+            </div>
+          </div>
+          <div class="row tab-pane fade" id="prod-8">
+            <div
+              class="span-mr col-lg-12"
+              style="background-color: rgb(250, 232, 151)"
+            >
+              <span>Bu Kategoride Henüz Ürün Bulunmamaktadır.</span>
+            </div>
+          </div>
+          <div class="row tab-pane fade" id="prod-9">
+            <div
+              class="span-mr col-lg-12"
+              style="background-color: rgb(250, 232, 151)"
+            >
+              <span>Bu Kategoride Henüz Ürün Bulunmamaktadır.</span>
+            </div>
+          </div>
+          <div class="row tab-pane fade" id="prod-10">
+            <div
+              class="span-mr col-lg-12"
+              style="background-color: rgb(250, 232, 151)"
+            >
+              <span>Bu Kategoride Henüz Ürün Bulunmamaktadır.</span>
+            </div>
+          </div>
+          <div class="row tab-pane fade" id="prod-11">
+            <div
+              class="span-mr col-lg-12"
+              style="background-color: rgb(250, 232, 151)"
+            >
+              <span>Bu Kategoride Henüz Ürün Bulunmamaktadır.</span>
+            </div>
+          </div>
+          <div class="row tab-pane fade" id="prod-12">
+            <div
+              class="span-mr col-lg-12"
+              style="background-color: rgb(250, 232, 151)"
+            >
+              <span>Bu Kategoride Henüz Ürün Bulunmamaktadır.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="first-footer">
+      <div class="container">
+        <div class="pseudo-container">
+          <div class="title2">
+            <span><h1>BİZİ SOSYAL MEDYADA TAKİP EDİN</h1></span>
+          </div>
+          <div class="text">
+            <span
+              >Birbirinden şık ürünlere ulaşmak, fırsat ve kampanyalardan
+              haberdar olmak için bizi takip edin...</span
+            >
+          </div>
+          <div class="social-media">
+            <li>
+              <a href=""><i class="fa fa-facebook-square"></i></a>
+            </li>
+            <li>
+              <a href="" style="padding-left: 19px"
+                ><i class="fa fa-instagram"></i
+              ></a>
+            </li>
+            <li>
+              <a href=""><i class="fa fa-youtube-play"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fa fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fa fa-linkedin"></i></a>
+            </li>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-photo">
+        <div class="container">
+          <div class="footer-flex">
+            <div class="col-sm-3 col-6">
+              <div class="row">
+                <div class="col-sm-6">
+                  <img src="start/footer-icon4.png" alt="" />
+                </div>
+                <div class="col-sm-6">
+                  <span class="sub">MODERN TASARIMLAR</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3 col-6">
+              <div class="row">
+                <div class="col-sm-6">
+                  <img src="start/footer-icon3.png" alt="" />
+                </div>
+                <div class="col-sm-6">
+                  <span class="sub">GELİŞMİŞ MAKİNA AĞI</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3 col-6">
+              <div class="row">
+                <div class="col-sm-6">
+                  <img src="start/footer-icon2.png" alt="" />
+                </div>
+                <div class="col-sm-6">
+                  <span class="sub">MÜŞTERİ MEMNUNİYETİ</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3 col-6">
+              <div class="row">
+                <div class="col-sm-6">
+                  <img src="start/footer-icon1.png" alt="" />
+                </div>
+                <div class="col-sm-6">
+                  <span class="sub">KALİTELİ ÜRETİM</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="contact-flex">
+            <div class="contact">
+              <div class="col-4">
+                <div class="row align-items-center">
+                  <div class="col-6">
+                    <a href="">+90 (332) 342 26 57</a>
+                  </div>
+                  <div class="col-2">
+                    <div class="bg-circle">
+                      <a href=""><img src="start/dark-phone.png" alt="" /></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4 center-text">
+                <div class="column">
+                  <div class="col-12">
+                    <p class="footer">Whatsapp Destek Hattımız</p>
+                  </div>
+                  <div class="col-12 hover-a">
+                    <a href="">+90 (542) 342 26 57</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="row align-items-center align-right">
+                  <div class="col-6">
+                    <a href="">bilgi@semtal.com.tr</a>
+                  </div>
+                  <div class="col-2">
+                    <div class="bg-circle">
+                      <a href=""><img src="start/dark-mail.png" alt="" /></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="go-back">
+            <a href="#back5"><i class="fa fa-angle-double-up"></i></a>
+            <br />
+            <a style="font-size: small" href="#back5">Yukarı Çık</a>
+          </div>
+          <div class="footer-nav">
+            <li><a href="index.html">ANASAYFA</a></li>
+            <li><a href="kurumsal.html">KURUMSAL</a></li>
+            <li><a href="urunlerimiz.html">ÜRÜNLERİMİZ</a></li>
+            <li><a href="medya.html">MEDYA</a></li>
+            <li><a href="bize-ulasin.html">BİZE ULAŞIN</a></li>
+          </div>
+          <div class="container">
+            <div class="mobile-footer mr-top-70">
+              <a href="">+90 (332) 342 26 57</a>
+              <p class="footer">Whatsapp Destek Hattımız</p>
+              <a href="">+90 (542) 342 26 57</a>
+              <a href="">bilgi@semtal.com.tr</a>
+              <div class="mobile-footer mr-top-70">
+                <li><a href="index.html">ANASAYFA</a></li>
+                <li><a href="kurumsal.html">KURUMSAL</a></li>
+                <li><a href="urunlerimiz.html">ÜRÜNLERİMİZ</a></li>
+                <li><a href="medya.html">MEDYA</a></li>
+                <li><a href="bize-ulasin.html">BİZE ULAŞIN</a></li>
+              </div>
+            </div>
+          </div>
+          <div class="footer-radius"></div>
+          <div class="row align-items-center">
+            <div class="footer-radius-inner2 col-4">
+              <span style="color: white; font-size: small"
+                >Tüm hakları saklıdır 2021</span
+              >
+            </div>
+            <div class="footer-radius-inner2 col-4">
+              <a href=""><img src="start/white-logo1.png" alt="" /></a>
+            </div>
+            <div class="footer-radius-inner2 col-4">
+              <a href=""><img src="start/post-ajans-icon.png" alt="" /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container"></div>
+    </footer>
+
+    <div class="container footer-mobile">
+      <div class="row footer-end">
+        <div class="footer-radius-inner col-4">
+          <span class="desktop" style="color: rgb(0, 0, 0); font-size: small"
+            >Tüm hakları saklıdır 2021</span
+          >
+        </div>
+        <div class="footer-radius-inner col-4">
+          <a href=""><img src="start/white-logo1.png" alt="" /></a>
+        </div>
+        <div class="footer-radius-inner col-4">
+          <a href=""
+            ><img src="https://semtal.com.tr/assets/images/post.png" alt=""
+          /></a>
+        </div>
+        <div class="footer-radius-inner col-4">
+          <span class="mobile" style="color: rgb(0, 0, 0); font-size: small"
+            >Tüm hakları saklıdır 2021</span
+          >
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/js/bootstrap.min.js"
+      integrity="sha512-a6ctI6w1kg3J4dSjknHj3aWLEbjitAXAjLDRUxo2wyYmDFRcz2RJuQr5M3Kt8O/TtUSp8n2rAyaXYy1sjoKmrQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script type="text/javascript" src="script.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
